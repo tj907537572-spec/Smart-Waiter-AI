@@ -1,0 +1,29 @@
+{
+  "default_lang": "tj",
+  "phrases": {
+    "upsell": {
+      "tj": "ROBOT: Фармоиши {dish} қабул шуд! {recommendation}",
+      "ru": "ROBOT: Заказ {dish} принят! {recommendation}",
+      "en": "ROBOT: Order for {dish} received! {recommendation}",
+      "zh": "ROBOT: {dish} 订单已收到! {recommendation}"
+    },
+    "upsell_ok": { "tj": "Хуб, илова кардам.", "ru": "Отлично, добавил.", "en": "Added.", "zh": "好的" },
+    "thanks": { "tj": "Ташаккур!", "ru": "Спасибо!", "en": "Thanks!", "zh": "谢谢" },
+    "yes_words": {
+      "tj": ["ха", "хуб", "бале"],
+      "ru": ["да", "ага", "давай"],
+      "en": ["yes", "ok"],
+      "zh": ["是的", "好"]
+    }
+  },
+  "menu_logic": {
+    "плов": {
+      "recommendation": {
+        "tj": "Ба ин палав хӯриши Ачик-чучук хеле мувофиқ аст. Фармоиш диҳам?",
+        "ru": "К этому плову отлично подойдет салат Ачик-чучук. Заказать?",
+        "en": "Achichuk salad goes great with this plov. Add it?",
+        "zh": "抓饭配上阿奇丘克沙拉非常棒。您想加一份吗？"
+      }
+    }
+  }
+}
