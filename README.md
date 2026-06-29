@@ -1,8 +1,43 @@
-# SmartRobotBrain - Universal AI Service Platform (ROS2)
+# 🤖 SmartRobotBrain — Universal AI Waiter Robot (ROS2)
 
-Ин бастаи нармафзор (пакет) дар пойгоҳи ROS2 барои роботҳои пешхизмат ва ассистентҳои интеллектуалӣ сохта шудааст.
 
-## Хусусиятҳои асосӣ:
-- **Мултирежимӣ (Multi-Mode):** Гузариши автоматӣ байни режими "Ресторан" (ҷалби мизоҷон, маркетинг) ва режими "Тӯй/Тантана" (тостҳо, аниматсия, тақсими чой ва ширинӣ).
-- **Мултизабонӣ:** Дастгирии пурраи 4 забон: Тоҷикӣ, Русӣ, Англисӣ ва Чинӣ.
-- **Бехатарии Fail-Safe:** Системаи навигатсионии оқилона, ки масофаро тавассути LiDAR чен карда, дар ҳолати наздикшавии хатарнок (камтар аз 30 см) роботро экстренно бозмедорад.
+
+![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
+
+
+
+
+![Python](https://img.shields.io/badge/Python-3.10-green)
+
+
+
+
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+
+
+## 🌟 Описание
+
+Универсальный робот-официант на ROS2.
+Работает на 4 языках: 🇹🇯 Таджикский | 🇷🇺 Русский | 🇬🇧 English | 🇨🇳 中文
+
+## 📦 Файлы проекта
+
+| Файл | Описание |
+|------|----------|
+| `nav2_client.py` | 🗺️ Навигация (Nav2) |
+| `tts_node.py` | 🔊 Голос (Piper TTS) |
+| `asr_node.py` | 🎤 Слух (Whisper ASR) |
+| `tray_controller.py` | 🍽️ Поднос (Servo) |
+| `battery_manager.py` | 🔋 Батарея |
+| `kitchen_display.py` | 🍳 Экран кухни |
+
+## 🚀 Быстрый старт
+
+### Установка
+```bash
+# ROS2 Humble
+sudo apt install ros-humble-desktop ros-humble-nav2-bringup
+
+# Python
+pip install faster-whisper piper-tts pyaudio pyyaml
