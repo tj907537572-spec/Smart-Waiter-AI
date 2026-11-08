@@ -41,3 +41,9 @@ sudo apt install ros-humble-desktop ros-humble-nav2-bringup
 
 # Python
 pip install faster-whisper piper-tts pyaudio pyyaml
+
+
+
+![CI](https://github.com/tj907537572-spec/Smart-Waiter-AI/actions/workflows/ci.yml/badge.svg)
+
+
