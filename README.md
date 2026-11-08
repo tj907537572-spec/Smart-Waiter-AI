@@ -1,6 +1,11 @@
 # 🤖 SmartRobotBrain — Universal AI Waiter Robot (ROS2)
 
 
+![CI](https://github.com/tj907537572-spec/Smart-Waiter-AI/actions/workflows/ci.yml/badge.svg)
+
+
+
+
 
 ![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
 
@@ -44,6 +49,5 @@ pip install faster-whisper piper-tts pyaudio pyyaml
 
 
 
-![CI](https://github.com/tj907537572-spec/Smart-Waiter-AI/actions/workflows/ci.yml/badge.svg)
 
 
