@@ -1,0 +1,17 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: ros:humble
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build ROS2 package
+        run: |
+          mkdir -p /ws/src
+          cp -r . /ws/src/waiter_brain_sdk
+          cd /ws
+          . /opt/ros/humble/setup.sh
+          colcon build
+      - name: Run tests
+        run: python3 -m unittest discover -s waiter_brain_sdk -v
