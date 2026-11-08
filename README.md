@@ -73,7 +73,7 @@ We are looking for:
 - **Restaurants** willing to run a pilot
 - **Investors** interested in service robotics in Central Asia
 
-Contact: Telegram: https://t.me/ТВОЙ_ЛОГИН
+Contact: Telegram: https://t.me/Yusuf200fg
 
 ## Languages
 
